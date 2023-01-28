@@ -8,4 +8,9 @@ public class Director {
         this.imie = imie;
         this.nazwisko = nazwisko;
     }
+
+    @Override
+    public String toString() {
+        return imie + " " + nazwisko;
+    }
 }

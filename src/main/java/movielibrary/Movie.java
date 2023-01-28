@@ -18,5 +18,13 @@ public class Movie {
         this.gatunek = gatunek;
     }
 
-
+    @Override
+    public String toString() {
+        return "Movie{" +
+                "director=" + director +
+                ", dataWydania=" + dataWydania +
+                ", tytul='" + tytul + '\'' +
+                ", gatunek=" + gatunek +
+                '}';
+    }
 }

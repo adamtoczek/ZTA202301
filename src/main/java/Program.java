@@ -19,5 +19,9 @@ public class Program {
         biblioteka.addMovie(new Movie(stasiek, Arrays.asList(helenka, meryl, tomek), 2020, "Gwiezdne Wojny", Gatunek.THRILLER));
 
 
+//        biblioteka.showRandomMovie();
+//        biblioteka.showMoviesFromDates(1995, 2020);
+        biblioteka.showMoviesWithActor("Sean", "Connery");
+
     }
 }
